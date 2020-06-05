@@ -4,6 +4,28 @@ This project was created because PD still lacks decent analytics. The paid analy
 
 It is my hope that this project can surface your teams very real battle against toil, burnout, and stress. Hopefully, it can also show how your team goes on to make on-call tolerable through a combination of analysis, high impact automation, and thoughtful post-mortems.
 
+- [Setup](#Setup)
+  - [Environment / Requirements](#Environment--Requirements)
+- [About the data](#About-the-data)
+  - [Table Types](#Table-Types)
+  - [log_entries table](#logentries-table)
+  - [incident_involved_teams table](#incidentinvolvedteams-table)
+- [Database Deployment](#Database-Deployment)
+  - [DACPAC](#DACPAC)
+  - [Direct schema creation](#Direct-schema-creation)
+- [Running the Script](#Running-the-Script)
+  - [Example Args](#Example-Args)
+  - [Other useful args](#Other-useful-args)
+- [Development and TODO](#Development-and-TODO)
+  - [TODO](#TODO)
+
+# Setup
+## Environment / Requirements
+- Powershell 5.1 (though might work with PS Core)
+- Windows + .NET 4.5+ (though might work on different OS)
+
+It might not be a lot of work to get thsi running on Linux/MacOS but hasn't yet been tested.
+
 # About the data
 ## Table Types
 Tables come in 3 major types:
