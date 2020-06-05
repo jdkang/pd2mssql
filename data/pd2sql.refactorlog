@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2173c1a0-9473-49b1-8267-281f4bd21cdc" ChangeDateTime="04/05/2019 19:43:57">
+    <Property Name="ElementName" Value="[dbo].[incidents].[first_trigger_log_entry]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[incidents]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="first_trigger_log_entry_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a10e2ec-9e4f-4d9d-8e9e-f946a4f571fc" ChangeDateTime="04/10/2019 14:59:08">
+    <Property Name="ElementName" Value="[dbo].[incident_involved_teams].[source]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[incident_involved_teams]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="incident_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04f36f60-900c-43ad-ad2c-23331fcc9e32" ChangeDateTime="04/10/2019 14:59:26">
+    <Property Name="ElementName" Value="[dbo].[incident_involved_teams].[source_type]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[incident_involved_teams]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="source" />
+  </Operation>
+</Operations>
